@@ -1,7 +1,7 @@
 \documentclass[12pt,letterpaper]{hmcpset}
 \usepackage[margin=1in]{geometry}
 \usepackage{graphicx}
-
+\usepackage{amssymb}
 % info for header block in upper right hand corner
 \name{Name: \underline{\hspace{3cm}}}
 \class{Math 40, Section \underline{\hspace{1cm}}}
@@ -147,7 +147,17 @@ $$
 \newpage
 
 \begin{problem}[2.3.16]
-
+\textit{Describe the span of the given vectors (a) geometrically  and (b) algebraically}
+$$ \begin{bmatrix}
+1\\0\\-1
+\end{bmatrix} \phantom{	},
+\begin{bmatrix}
+0\\-1\\0
+\end{bmatrix} \phantom{	},
+\begin{bmatrix}
+1\\0\\-1
+\end{bmatrix} \phantom{	}
+$$
 \end{problem}
 
 \begin{solution}
@@ -157,7 +167,17 @@ $$
 \newpage
 
 \begin{problem}[2.3.28]
-
+\textit{Using the method of Example 2.23 and Theorem 2.6 to determine if the set of vectors is linearly independent. If this can be determined by inspection state why. If they are linearly dependent state the dependence relationship among the vectors}
+$$\begin{bmatrix}
+-1\\1\\2\\1
+\end{bmatrix} \phantom{	},
+\begin{bmatrix}
+3\\2\\2\\4
+\end{bmatrix} \phantom{	},
+\begin{bmatrix}
+2\\3\\1\\-1
+\end{bmatrix} \phantom{	}
+$$
 \end{problem}
 
 \begin{solution}
@@ -167,7 +187,9 @@ $$
 \newpage
 
 \begin{problem}[2.3.42]
+A.\textit{If the columns of an $n\times n$ matrix $A$ are linearly indepednt as vectors in $\mathbb{R}^n$\\ \indent \phantom{phantom} what is the rank of $A$?}
 
+\indent B.\textit{If the rows of an $n\times n$ matrix $A$ are linearly indepednt as vectors in $\mathbb{R}^n$\\ \indent \phantom{phantom} what is the rank of $A$?}
 \end{problem}
 
 \begin{solution}
@@ -176,8 +198,11 @@ $$
 
 \newpage
 
+\begin{center}
+Determine if the following statements are true or false. 
+\end{center}
 \begin{problem}[Ch 2.1f]
-
+\textit{In $\mathbb{R}^3$ span(\textbf{u, v}) is always a plane through the origin} 
 \end{problem}
 
 \begin{solution}
@@ -187,7 +212,7 @@ $$
 \newpage
 
 \begin{problem}[Ch 2.1h]
-
+\textit{In $\mathbb{R}^3$, if a set of vectors can be drawn head to tail, one after the other so that a closed path (polygon) is formed then the vectors are linearly dependent}
 \end{problem}
 
 \begin{solution}
@@ -197,7 +222,7 @@ $$
 \newpage
 
 \begin{problem}[Ch 2.1j]
-
+\textit{If there are more vectors in a set of vectors than the number of entries in each vector, then the set of vectors are linearly dependent}
 \end{problem}
 
 \begin{solution}
@@ -206,8 +231,13 @@ $$
 
 \newpage
 
+\problemlist{3.1 Numbers: 8, 16, 18}
 \begin{problem}[3.1.8]
-
+\textit{ Compute the indicated matrix opperation; $BB^T$}
+$$B=\begin{bmatrix}
+4&-2&1\\0&\phantom-2&3
+\end{bmatrix}
+$$
 \end{problem}
 
 \begin{solution}
@@ -217,7 +247,10 @@ $$
 \newpage
 
 \begin{problem}[3.1.16]
-
+\textit{ Compute the indicated matrix opperation; $(I_2-D)^2$}
+$$D=\begin{bmatrix}
+\phantom-0&-3\\-2&\phantom-1
+\end{bmatrix}$$
 \end{problem}
 
 \begin{solution}
@@ -227,7 +260,9 @@ $$
 \newpage
 
 \begin{problem}[3.1.18]
-
+\textit{Let $A=\begin{bmatrix}
+2&1\\6&3
+\end{bmatrix}$. Find $2\times 2$ matrices $B$ and $C$ such that $AB= AC$ but $B \neq C$}
 \end{problem}
 
 \begin{solution}
